@@ -435,6 +435,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     animation-delay: 4s;
+    animation-name: floatCardCentered;
 }
 
 @keyframes floatCard {
@@ -443,6 +444,15 @@ body {
     }
     50% {
         transform: translateY(-20px);
+    }
+}
+
+@keyframes floatCardCentered {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-20px);
     }
 }
 

@@ -76,10 +76,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.background = 'var(--glass-bg)';
         navbar.style.boxShadow = '0 8px 32px var(--shadow)';
     } else {
-        navbar.style.background = 'var(--glass-bg)';
         navbar.style.boxShadow = 'none';
     }
 });
