@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A stunning static webpage with unimaginable features">
+    <title>Stellar UI - Next-Gen Web Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Stellar UI</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#showcase" class="nav-link">Showcase</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Welcome to the Future</span>
+                    <span class="hero-subtitle">of Web Design</span>
+                </h1>
+                <p class="hero-description">
+                    Experience a revolutionary UI/UX design that pushes the boundaries of what's possible.
+                    Smooth animations, stunning visuals, and intuitive interactions combined.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="explore-btn">
+                        <span>Explore Features</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span>Learn More</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1 glass">
+                    <div class="card-icon">🚀</div>
+                    <h3>Fast</h3>
+                    <p>Lightning speed</p>
+                </div>
+                <div class="floating-card card-2 glass">
+                    <div class="card-icon">🎨</div>
+                    <h3>Beautiful</h3>
+                    <p>Stunning design</p>
+                </div>
+                <div class="floating-card card-3 glass">
+                    <div class="card-icon">⚡</div>
+                    <h3>Powerful</h3>
+                    <p>Feature-rich</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title gradient-text">Unimaginable Features</h2>
+            <p class="section-subtitle">Everything you need and more</p>
+            
+            <div class="features-grid">
+                <div class="feature-card glass">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Dark/Light Mode</h3>
+                    <p>Seamlessly switch between themes with smooth transitions and persistent preferences.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="feature-icon">✨</div>
+                    <h3>Glassmorphism</h3>
+                    <p>Modern frosted glass effects with blur and transparency for a premium feel.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="feature-icon">🎬</div>
+                    <h3>Smooth Animations</h3>
+                    <p>Butter-smooth transitions and micro-interactions that delight users.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="feature-icon">📱</div>
+                    <h3>Fully Responsive</h3>
+                    <p>Perfect experience across all devices from mobile to desktop.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Accessibility</h3>
+                    <p>Built with semantic HTML and ARIA labels for everyone.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                
+                <div class="feature-card glass">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Optimized for speed with minimal footprint and maximum impact.</p>
+                    <div class="feature-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <h2 class="section-title gradient-text">Interactive Showcase</h2>
+            <p class="section-subtitle">Try out some interactive elements</p>
+            
+            <div class="showcase-grid">
+                <div class="showcase-item glass">
+                    <h3>Color Palette Generator</h3>
+                    <div class="color-palette">
+                        <div class="color-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)"></div>
+                        <div class="color-box" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"></div>
+                        <div class="color-box" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"></div>
+                        <div class="color-box" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)"></div>
+                    </div>
+                    <button class="btn btn-small" id="generate-colors">Generate New</button>
+                </div>
+                
+                <div class="showcase-item glass">
+                    <h3>Ripple Effect</h3>
+                    <div class="ripple-container" id="ripple-container">
+                        <p>Click anywhere here!</p>
+                    </div>
+                </div>
+                
+                <div class="showcase-item glass">
+                    <h3>Particle Count</h3>
+                    <div class="counter-display">
+                        <span class="counter-value" id="counter">0</span>
+                        <span class="counter-label">interactions</span>
+                    </div>
+                    <div class="counter-controls">
+                        <button class="btn btn-small" id="increment">+1</button>
+                        <button class="btn btn-small" id="reset">Reset</button>
+                    </div>
+                </div>
+                
+                <div class="showcase-item glass">
+                    <h3>Morphing Shapes</h3>
+                    <div class="shape-container">
+                        <div class="morphing-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content glass">
+                <h2 class="section-title gradient-text">Get In Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                        <span class="input-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                        <span class="input-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" rows="4" placeholder="Your Message" required></textarea>
+                        <span class="input-border"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Stellar UI. Crafted with ❤️ and cutting-edge technology.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
